@@ -1,13 +1,17 @@
 #include <iostream>
 int main()
 {
-	for(int a=0;a<5;a++){
-	for(int b=5;b>a;b--){
-	cout<<"*";
+	
+
+	for (int row=1;row<=5;row++)
+	{	for(int stars=1[stars<=row;stars++)
+			cout<<"*";
+		}
+		cout<<endl;
+		
 	}
-	cout<<"\n";
-	}
-	return 0;
 }
+
+
 	
 
